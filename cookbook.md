@@ -1,12 +1,20 @@
 means : an integer vector to save indices of measurements on the mean for each measurements
+
 stds : an integer vector to save indices of measurements on the standard deviation for each measurements
+
 to.keep : all measurement that need to be extracted. (union of "means" and "stds")
+
 featNames : names of the extracted features features. (from file UCI HAR Dataset/features.txt)
+
 train : a data frame corresponding to train dataset.
 		It only keeps desired columns that is stored in "to.keep" variable.
 		names of the remained columns are assigned by "featNames".
+		
+		
 subjTrain : ID of subjects that are present in train dataset.
+
 actTrain : ID of activities corresponding to each record of train data set.
+
 train2 : final train dataset including ID of subjects and their activity ID
 
 test : a data frame corresponding to test dataset.
