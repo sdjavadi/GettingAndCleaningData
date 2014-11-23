@@ -4,7 +4,7 @@
 
 * to.keep : all measurement that need to be extracted. (union of "means" and "stds")
 
-* featNames : names of the extracted features features. (from file UCI HAR Dataset/features.txt)
+* featNames : names of the extracted features features. (from the file : "UCI HAR Dataset/features.txt")
 
 * train : a data frame corresponding to train dataset.It only keeps desired columns that is stored in "to.keep" variable. names of the remained columns are assigned by "featNames".
 		
@@ -32,7 +32,7 @@
 End of Cases 1-2,4
 ===========================================
 
-* actName : Name of the activity corresponding to activity ID. (UCI HAR Dataset/activity_labels.txt). i replaced each ID with its activity Name.
+* actName : Name of the activity corresponding to activity ID. ( file : "UCI HAR Dataset/activity_labels.txt"). i replaced each ID with its activity Name.
 
 ===========================================
 End of Case 3
