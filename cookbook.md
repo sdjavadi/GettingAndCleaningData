@@ -1,6 +1,6 @@
-===========================================
- Cases 1-2,4
-===========================================
+
+## Cases 1-2,4
+
 
 * means : an integer vector to save indices of measurements on the mean for each measurements
 
@@ -31,14 +31,14 @@
 * Note that it was possible to merge two datasets and removed unwanted columns, but it seems merging two big datasets will require higher memory resources.
 
 * I decided to label variables before merging any additional column (i.e. subject ID and Activity ID). If i would label them after merging, i should add 2 to all indices of variable "to.keep".
-===========================================
- Case 3
-===========================================
+
+## Case 3
+
 
 * actName : Name of the activity corresponding to activity ID. ( file : "UCI HAR Dataset/activity_labels.txt"). i replaced each ID with its activity Name.
-===========================================
- Case 5
-===========================================
+
+## Case 5
+
 
 * For the last case, i used aggregate() function to create a second, independent tidy data set (called "aggdata") with the average of each variable for each activity and each subject.
 after Changing the name of Subject ID and Activity ID, the obtained dataset is saved as "Course Project.txt" in the current workspace.
