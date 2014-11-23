@@ -1,3 +1,8 @@
+===========================================
+CookBook
+===========================================
+
+In this document i introduce and explain all existing variables in the run_analysis.R script.
 
 ## Cases 1-2,4
 
